@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Himalayas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .himalaya-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5em;
+            margin: 2em 0 1em 0;
+        }
+        .himalaya-gallery img {
+            width: 100%;
+            max-width: 320px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(44,62,80,0.09);
+            margin: 0 auto;
+            display: block;
+        }
+        .himalaya-gallery figcaption {
+            text-align: center;
+            margin-top: 0.5em;
+            color: #388e3c;
+            font-weight: 500;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <h1>The Himalayas</h1>
+    <div class="himalaya-gallery">
+        <figure>
+            <img src="himalayas/kanchenjunga.jpeg" alt="Kanchenjunga">
+            <figcaption>Kanchenjunga</figcaption>
+        </figure>
+        <figure>
+            <img src="himalayas/nubra-valley.jpg" alt="Nubra Valley">
+            <figcaption>Nubra Valley</figcaption>
+        </figure>
+        <figure>
+            <img src="himalayas/pangong-lake.jpeg" alt="Pangong Lake">
+            <figcaption>Pangong Lake</figcaption>
+        </figure>
+    </div>
+    <section>
+        <h3>About the Region</h3>
+        <p>The Himalayas, Earth's highest mountain range, stretch across six countries, with India hosting some of its most spectacular regions. These mountains are not just geographical features but are deeply embedded in Indian culture and spirituality.</p>
+        <h3>Popular Destinations</h3>
+        <ul>
+            <li><strong>Manali:</strong> A picturesque valley known for adventure sports and ancient temples</li>
+            <li><strong>Ladakh:</strong> The land of high passes featuring Buddhist monasteries and stark landscapes</li>
+            <li><strong>Sikkim:</strong> Home to the third highest peak in the world, Kanchenjunga</li>
+        </ul>
+        <h3>Best Time to Visit</h3>
+        <ul>
+            <li>March to May for general tourism</li>
+            <li>December to February for winter sports</li>
+            <li>June to September for trekking</li>
+        </ul>
+        <h3>Activities</h3>
+        <ul>
+            <li>Trekking and Hiking</li>
+            <li>Skiing and Snowboarding</li>
+            <li>Meditation and Yoga Retreats</li>
+            <li>Wildlife Photography</li>
+            <li>Cultural Tours</li>
+        </ul>
+    </section>
+</body>
+</html>
